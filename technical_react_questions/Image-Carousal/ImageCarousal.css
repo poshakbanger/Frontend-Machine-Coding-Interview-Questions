@@ -1,0 +1,27 @@
+.carousel-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .navigation-buttons button {
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  
+  .page-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  
+  .page-buttons button.active {
+    background-color: #333;
+    color: #fff;
+  }

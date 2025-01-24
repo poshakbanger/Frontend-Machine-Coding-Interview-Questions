@@ -1,0 +1,25 @@
+.dice-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dice-row {
+    display: flex;
+  }
+  
+  .dice-row-start,
+  .dice-row-end {
+    flex-grow: 1; /* To push dice to the edges of the row */
+  }
+  
+  .dice {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }

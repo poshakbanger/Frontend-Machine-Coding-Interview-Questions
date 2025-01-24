@@ -1,0 +1,6 @@
+ .like-button-container { text-align: center; margin: 20px; }
+ .like-button { font-size: 20px; padding: 10px; border: none; cursor: pointer; }
+ .like-button.default .heart-outline { color: #888; }
+ .like-button.liked .heart { color: #f00; }
+ .like-button.loading { pointer-events: none; }
+ .error-message { color: red; margin-top: 10px; font-size: 14px; }
