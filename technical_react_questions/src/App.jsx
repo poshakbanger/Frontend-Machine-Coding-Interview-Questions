@@ -23,8 +23,8 @@ import Todo from './components/Todo/Todo';
 import TrafficLight from './components/Traffic-Light/TrafficLight';
 import DigitalClock from './components/Digital-Clock/DigitalClock';
 import TicTacToe from './components/Tic-Tac-Toe/TicTacToe';
-import ImageCarousal from '../Image-Carousal/ImageCarousal';
-import JobBoard from '../Job-Board/JobBoard';
+import ImageCarousal from './components/Image-Carousal/ImageCarousal';
+import JobBoard from './components/Job-Board/JobBoard';
 
 function App () {
 
