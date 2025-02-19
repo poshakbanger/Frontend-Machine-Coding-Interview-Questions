@@ -25,6 +25,8 @@ import DigitalClock from './components/Digital-Clock/DigitalClock';
 import TicTacToe from './components/Tic-Tac-Toe/TicTacToe';
 import ImageCarousal from './components/Image-Carousal/ImageCarousal';
 import JobBoard from './components/Job-Board/JobBoard';
+import Stopwatch from './components/Stopwatch/Stopwatch';
+import TranferList from './components/Transfer List/TranferList';
 
 function App () {
 
@@ -54,7 +56,9 @@ function App () {
       {/* <DigitalClock/> */}
       {/* <TicTacToe/> */}
       {/* <ImageCarousal/> */}
-      <JobBoard/>
+      {/* <JobBoard/> */}
+      {/* <Stopwatch/> */}
+      <TranferList/>
     </div>
   )
 }
